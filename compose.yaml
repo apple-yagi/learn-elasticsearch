@@ -1,0 +1,6 @@
+services:
+  elasticsearch:
+    build: docker/elasticsearch
+    container_name: es
+    ports:
+      - "9200:9200"
